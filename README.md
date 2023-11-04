@@ -1,11 +1,11 @@
-![CI](https://github.com/changepack/changepack/actions/workflows/ci.yml/badge.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/6fcca30f3ba6843848db/maintainability)](https://codeclimate.com/github/changepack/changepack/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/6fcca30f3ba6843848db/test_coverage)](https://codeclimate.com/github/changepack/changepack/test_coverage)
+![CI](https://github.com/changepack/ship/actions/workflows/ci.yml/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6fcca30f3ba6843848db/maintainability)](https://codeclimate.com/github/changepack/ship/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6fcca30f3ba6843848db/test_coverage)](https://codeclimate.com/github/changepack/ship/test_coverage)
 
-Changepack is an open-source changelog for your product. Share updates about new features with your customers and keep people in the loop!
+Ship is an open-source changelog for your product. Share updates about new features with your customers and keep people in the loop!
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-<a href="https://render.com/deploy?repo=https://github.com/changepack/changepack">
+<a href="https://render.com/deploy?repo=https://github.com/changepack/ship">
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" height="32">
 </a>
 <!-- HTML is required to rescale the image so that the button isn’t bigger than Heroku’s -->
@@ -13,14 +13,14 @@ Changepack is an open-source changelog for your product. Share updates about new
 ## Features
 
 * **Write release notes 10x faster with AI.** Leverage OpenAI’s [ChatGPT](https://openai.com/blog/chatgpt) to publish your content in seconds.
-* **Pull commits from GitHub.** Changepack allows you to link changelogs with your GitHub activity, making it easy to track progress. (GitLab coming soon!)
+* **Pull commits from GitHub.** Ship allows you to link changelogs with your GitHub activity, making it easy to track progress. (GitLab coming soon!)
 * **Retrieve issues from Linear.** We connect changelogs to project management tools of your choice, allowing ChatGPT to stay informed about your current tasks. (Other tools coming soon.)
-* **Monthly automated summaries.** Each month, Changepack handpicks the most notable updates and creates a release note draft for you to review and publish.
+* **Monthly automated summaries.** Each month, Ship handpicks the most notable updates and creates a release note draft for you to review and publish.
 ## Build and run locally
 
 ```
-git clone https://github.com/changepack/changepack.git
-cd changepack
+git clone https://github.com/changepack/ship.git
+cd ship
 
 # Install dependencies
 bundle install
